@@ -14,10 +14,10 @@ export const GraphQLTest = () => {
     if (error) return <p>Error :(</p>;
         
     console.log("​GraphQLTest -> data", data)
-    
+
     return (
         <>
-            <p></p>
+            <p>{data && data.hello}</p>
         </>
     )
 }
