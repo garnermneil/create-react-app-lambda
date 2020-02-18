@@ -4,7 +4,7 @@ import { gql } from 'apollo-boost';
 
 const QUERY = gql`
   {
-    hello
+    lettings
   }
 `;
 
@@ -17,7 +17,7 @@ export const GraphQLTest = () => {
 
     return (
         <>
-            <p>{data && data.hello}</p>
+            <p>{data && data.lettings}</p>
         </>
     )
 }
