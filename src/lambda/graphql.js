@@ -22,6 +22,7 @@ const LETTINGS = [{
 const typeDefs = gql`
   type Query {
     hello: String
+    lettings: [Letting]
   }
 
   type Letting {
